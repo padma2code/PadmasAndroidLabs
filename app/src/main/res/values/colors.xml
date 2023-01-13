@@ -2,7 +2,7 @@
 <resources>
     <color name="my_primary">#FF666666</color>
     <color name="my_secondary">#66FFFF</color>
-    <color name="my_statusbar">#FF4700B2</color>
+    <color name="my_statusbar">#DC7633</color>
     <color name="my_text">#2ECC71</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
