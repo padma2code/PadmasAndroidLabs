@@ -6,14 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation = "vertical"
-    tools:context=".MainActivity">
+    tools:context="ui.MainActivity">
 
     <TextView
         android:id="@+id/TextviewHelloWorld"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginTop="150dp"
         android:text="@string/hello_message" />
 
     <EditText
@@ -22,7 +22,7 @@
         android:layout_height="49dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="150dp"
         android:text="Write Something Here!"
         tools:layout_editor_absoluteX="64dp"
         tools:layout_editor_absoluteY="62dp" />
