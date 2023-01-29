@@ -12,8 +12,8 @@
         android:id="@+id/TextviewHelloWorld"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="150dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
         android:text="@string/hello_message" />
 
     <EditText
@@ -22,7 +22,7 @@
         android:layout_height="49dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:layout_marginBottom="150dp"
+        android:layout_marginBottom="30dp"
         android:text="Write Something Here!"
         tools:layout_editor_absoluteX="64dp"
         tools:layout_editor_absoluteY="62dp" />
@@ -30,7 +30,35 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_message" />
+        android:text="@string/button_message"
+        android:layout_marginBottom="30dp" />
+
+    <Switch android:id="@+id/mySwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Do you Drink Coffee?" />
+
+    <RadioButton android:id="@+id/myRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Do you Drink Coffee?" />
+
+    <CheckBox android:id="@+id/myCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you Drink Coffee?" />
+
+    <ImageView android:id="@+id/theImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app_icon" />
+
+    <ImageButton android:id="@+id/imageBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background" />
 
 
 
