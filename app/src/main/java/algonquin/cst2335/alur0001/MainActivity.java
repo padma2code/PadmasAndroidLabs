@@ -24,6 +24,14 @@ public class MainActivity extends AppCompatActivity {
         TextView tv =findViewById(R.id.TextviewHelloWorld);
         EditText et = findViewById(R.id.editText);
 
-    }
 
+ b.setOnClickListener(new View.OnClickListener(){
+        @Override
+        public void onClick(View v){
+            tv.setText("You Clicked Button");
+            et.setText("You Clicked Button");
+            b.setText("You Clicked Button");
+        }
+    });
+    }
 }
