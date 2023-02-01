@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_main);
         viewModel = new ViewModelProvider(this).get(MainViewModel.class);
-        //Button b = findViewById(R.id.button);
+        // Button b = findViewById(R.id.button);
         //TextView tv =findViewById(R.id.TextviewHelloWorld);
         //EditText et = findViewById(R.id.editText);
 
@@ -37,16 +37,11 @@ public class MainActivity extends AppCompatActivity {
                 variableBinding.myCheckBox.setChecked(newBooleanValue);
                 variableBinding.myRadio.setChecked(newBooleanValue);
         });
-
-
             //Set Toast for Image BTN Height and Width
             variableBinding.imageBTN.setOnClickListener( imageBTN -> {
-
-
                 Toast
                         .makeText(MainActivity.this,  "The width = " + String.valueOf(variableBinding.imageBTN.getWidth()) + " and height = " + String.valueOf(variableBinding.imageBTN.getHeight()),Toast.LENGTH_LONG)
                         .show();
-
             });
 
             //Set Toast on Compound buttons status change
