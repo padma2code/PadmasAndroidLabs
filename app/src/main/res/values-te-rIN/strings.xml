@@ -3,4 +3,9 @@
     <string name="app_name">Padma\'s Android Labs</string>
     <string name="hello_message">హలో వరల్డ్</string>
     <string name="button_message">నేను ఒక బటన్‌ని</string>
+    <string name="spin_message">స్పిన్ ఫ్లాగ్</string>
+    <string name="button1">బటన్#1</string>
+    <string name="button2">బటన్#2</string>
+    <string name="button3">బటన్#3</string>
+
 </resources>
