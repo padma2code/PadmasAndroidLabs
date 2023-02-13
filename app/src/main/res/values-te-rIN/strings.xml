@@ -7,5 +7,7 @@
     <string name="button1">బటన్#1</string>
     <string name="button2">బటన్#2</string>
     <string name="button3">బటన్#3</string>
+    <string name="enter_your_email_address">Enter your Email address</string>
+    <string name="enter_your_password">Enter Your Password</string>
 
 </resources>
