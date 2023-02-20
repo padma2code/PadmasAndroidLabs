@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Padma\'s Android Labs</string>
+    <string name="hello_message">హలో వరల్డ్</string>
+    <string name="button_message">నేను ఒక బటన్‌ని</string>
+</resources>
